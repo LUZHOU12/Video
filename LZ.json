@@ -1,125 +1,46 @@
 {
-  "sites": [
+  "网站"：[
     {
-      "key": "kuaifan",
-      "name": "为爱发电.ing",
-      "type": 1,
-      "api": "https://api.kuaifan.tv/api.php/provide/vod",
-      "categories": [
-        "国产剧",
-        "香港剧",
-        "韩国剧",
-        "日本剧",
-        "欧美剧",
-        "喜剧片",
-        "动画片",
-        "大陆综艺",
-        "国产动漫",
-        "日本动漫"
-      ]
+      "钥匙"：“建篇”,
+      "名称"："荐片✲",
+      "类型"：3,
+      " api "：" csp_Jianpian ",
+      "可搜索"：一,
+      “多变”：一,
+      "分机"：" https://fong mi . cache fly . net/fong mi/CatVodSpider/main/JSON/Jian pian . JSON ",
+      “罐子”：" https://fong mi . cache fly . net/fong mi/CatVodSpider/main/jar/custom _ spider . jar "
     },
     {
-      "key": "kunyu77",
-      "name": "微信：JIDA001c",
-      "type": 3,
-      "api": "https://fongmi.cachefly.net/FongMi/CatVodOpen/main/open/kunyu77_open.js"
-    },
-    {
-      "key": "py_cctv",
-      "name": "央视网©",
-      "type": 3,
-      "api": "py_cctv",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
-      "ext": "https://bitbucket.org/xduo/json/raw/master/cctv.py"
-    },
-    {
-      "key": "Dm84",
-      "name": "动漫岛©",
-      "type": 3,
-      "api": "csp_Dm84",
-      "searchable": 1,
-      "changeable": 1,
-      "jar": "https://fongmi.cachefly.net/FongMi/CatVodSpider/main/jar/custom_spider.jar"
-    },
-    {
-      "key": "baofeng",
-      "name": "备用 ①",
-      "type": 1,
-      "api": "https://bfzyapi.com/api.php/provide/vod",
-      "categories": [
-        "国产剧",
-        "香港剧",
-        "韩国剧",
-        "日本剧",
-        "欧美剧",
-        "喜剧片",
-        "动漫片",
-        "大陆综艺",
-        "国产动漫",
-        "日韩动漫"
-      ]
-    },
-    {
-      "key": "feisu",
-      "name": "备用 ②",
-      "type": 1,
-      "api": "http://www.feisuzy.com/api.php/provide/vod/",
-      "categories": [
-        "国产剧",
-        "香港剧",
-        "韩国剧",
-        "日本剧",
-        "欧美剧",
-        "喜剧片",
-        "动画片",
-        "大陆综艺",
-        "国产动漫",
-        "日本动漫"
-      ]
-    },
-    {
-      "key": "js_电影先生",
-      "name": "电影先生",
-      "type": 3,
-      "api": "https://jihulab.com/duomv/xduo/-/raw/main/js/drpy2.js",
-      "ext": "https://jihulab.com/duomv/xduo/-/raw/main/js/电影先生.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "push_agent",
-      "name": "本地/推送",
-      "type": 3,
-      "api": "csp_Push",
-      "searchable": 0,
-      "changeable": 0
+      "钥匙"："推送代理",
+      "名称"："本地/推送",
+      "类型"：3,
+      " api "：" csp_Push ",
+      "可搜索"：0,
+      “多变”：0
     }
   ],
-  "lives": [
+  “生命”：[
     {
-      "name": "LIVE",
-      "type": 0,
-      "url": "https://s2.pub/UZI",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": ""
+      "名称"：“直播”,
+      "类型"：0,
+      "网址"：" https://s2.pub/UZI ",
+      "电子节目指南"："http://epg.112114.xyz/？ch={name}&date={date} ",
+      "标志"：""
     }
   ],
-  "doh": [
+  “doh”：[
     {
-      "name": "Google",
-      "url": "https://dns.google/dns-query",
-      "ips": [
+      "名称"：“谷歌”,
+      "网址"：" https://dns.google/dns-query ",
+      " ips "：[
         "8.8.4.4",
         "8.8.8.8"
       ]
     },
     {
-      "name": "Cloudflare",
-      "url": "https://cloudflare-dns.com/dns-query",
-      "ips": [
+      "名称"：“云闪”,
+      "网址"：" https://cloud flare-DNS . com/DNS-query ",
+      " ips "：[
         "1.1.1.1",
         "1.0.0.1",
         "2606:4700:4700::1111",
@@ -127,16 +48,16 @@
       ]
     },
     {
-      "name": "AdGuard",
-      "url": "https://dns.adguard.com/dns-query",
-      "ips": [
+      "名称"："广告卫士",
+      "网址"：" https://DNS . adguard . com/DNS-query ",
+      " ips "：[
         "94.140.14.140",
         "94.140.14.141"
       ]
     },
     {
-      "name": "DNSWatch",
-      "url": "https://resolver2.dns.watch/dns-query",
+      "名称"：" DNSWatch ",
+      "网址"：" https://resolver 2 . DNS . watch/DNS-query ",
       "ips": [
         "84.200.69.80",
         "84.200.70.40"
