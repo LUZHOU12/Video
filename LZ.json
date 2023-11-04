@@ -1,46 +1,43 @@
 {
-  "网站"：[
+  "sites": [
     {
-      "key": "jianpian",
-      "name": "荐片✲",
+      "key": "JianP",
+      "name": "流星✲",
       "type": 3,
-      "api": "csp_Jianpian",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": "https://fongmi.cachefly.net/FongMi/CatVodSpider/main/json/jianpian.json",
-      "jar": "https://fongmi.cachefly.net/FongMi/CatVodSpider/main/jar/custom_spider.jar"
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/libs/drpy2.min.js",
+      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/荐片.js"
     },
     {
-      "钥匙"："推送代理",
-      "名称"："本地/推送",
-      "类型"：3,
-      " api "：" csp_Push ",
-      "可搜索"：0,
-"多变":0
+      "key": "push_agent",
+      "name": "本地/推送",
+      "type": 3,
+      "api": "csp_Push",
+      "searchable": 0,
+      "changeable": 0
     }
   ],
-"生命":[
+  "lives": [
     {
-      "名称":"直播",
-      "类型"：0,
-      "网址"：《https://s2.pub/UZI》,
-      "电子节目指南":“http://epg.112114.xyz/？ch={name}&date={date} "，
-      "标志":""
+      "name": "LIVE",
+      "type": 0,
+      "url": "https://s2.pub/UZI",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": ""
     }
   ],
-“doh”:[
+  "doh": [
     {
-      "名称":"谷歌",
-      "网址"：《https://dns.google/dns-query》,
-      " ips "：[
+      "name": "Google",
+      "url": "https://dns.google/dns-query",
+      "ips": [
         "8.8.4.4",
         "8.8.8.8"
       ]
     },
     {
-      "名称"：“云闪”,
-      "网址"：" https://cloud flare-DNS . com/DNS-query ",
-      " ips "：[
+      "name": "Cloudflare",
+      "url": "https://cloudflare-dns.com/dns-query",
+      "ips": [
         "1.1.1.1",
         "1.0.0.1",
         "2606:4700:4700::1111",
@@ -48,16 +45,16 @@
       ]
     },
     {
-      "名称"："广告卫士",
-      "网址"：" https://DNS . adguard . com/DNS-query ",
-      " ips "：[
+      "name": "AdGuard",
+      "url": "https://dns.adguard.com/dns-query",
+      "ips": [
         "94.140.14.140",
         "94.140.14.141"
       ]
     },
     {
-      "名称"：" DNSWatch ",
-      "网址"：" https://resolver 2 . DNS . watch/DNS-query ",
+      "name": "DNSWatch",
+      "url": "https://resolver2.dns.watch/dns-query",
       "ips": [
         "84.200.69.80",
         "84.200.70.40"
@@ -104,6 +101,18 @@
       ],
       "regex": [
         "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:3,[\\s\\S]*?#EXT-X-DISCONTINUITY"
+      ]
+    },
+    {
+      "name": "蜗牛",
+      "hosts": [
+        "vip.123pan.cn",
+        "rescdn.wuxivlog.cn"
+      ],
+      "regex": [
+        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:20.840000,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:10.120000,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+        "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
       ]
     },
     {
