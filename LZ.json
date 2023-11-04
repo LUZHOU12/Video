@@ -1,14 +1,14 @@
 {
   "网站"：[
     {
-      "钥匙"：“建篇”,
-      "名称"："荐片✲",
-      "类型"：3,
-      " api "：" csp_Jianpian ",
-      "可搜索"：一,
-      “多变”：一,
-      "分机"：" https://fong mi . cache fly . net/fong mi/CatVodSpider/main/JSON/Jian pian . JSON ",
-      “罐子”：" https://fong mi . cache fly . net/fong mi/CatVodSpider/main/jar/custom _ spider . jar "
+      "key": "jianpian",
+      "name": "荐片✲",
+      "type": 3,
+      "api": "csp_Jianpian",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": "https://fongmi.cachefly.net/FongMi/CatVodSpider/main/json/jianpian.json",
+      "jar": "https://fongmi.cachefly.net/FongMi/CatVodSpider/main/jar/custom_spider.jar"
     },
     {
       "钥匙"："推送代理",
@@ -16,22 +16,22 @@
       "类型"：3,
       " api "：" csp_Push ",
       "可搜索"：0,
-      “多变”：0
+"多变":0
     }
   ],
-  “生命”：[
+"生命":[
     {
-      "名称"：“直播”,
+      "名称":"直播",
       "类型"：0,
-      "网址"：" https://s2.pub/UZI ",
-      "电子节目指南"："http://epg.112114.xyz/？ch={name}&date={date} ",
-      "标志"：""
+      "网址"：《https://s2.pub/UZI》,
+      "电子节目指南":“http://epg.112114.xyz/？ch={name}&date={date} "，
+      "标志":""
     }
   ],
-  “doh”：[
+“doh”:[
     {
-      "名称"：“谷歌”,
-      "网址"：" https://dns.google/dns-query ",
+      "名称":"谷歌",
+      "网址"：《https://dns.google/dns-query》,
       " ips "：[
         "8.8.4.4",
         "8.8.8.8"
